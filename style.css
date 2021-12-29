@@ -1,0 +1,146 @@
+body{font-family:'montserrat';
+    background-color: #eceff8; 
+    text-align: center;
+
+}
+
+h1{text-align: center; color: #16173e;}
+
+.tabuleiro{text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    width: 330px;
+    border-radius: 30px;
+    margin-right: 0;
+    position: absolute;
+    left: 50%;
+    margin-left: -190px;
+    
+}
+
+.peças{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 0, 65);
+    border: 3px solid rgb(0, 0, 17);
+    border-radius: 10px;
+    display: inline-block;
+
+}
+
+.um{position: relative;}
+
+.um::after{
+    position: absolute;
+    content: "x";
+    color:white;
+    font-size: 100px;
+    line-height: 80px;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+}
+
+.dois{position: relative;}
+
+.dois::after{
+    position: absolute;
+    content: "o";
+    color: white;
+    font-size: 100px;
+    line-height: 80px;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+}
+
+.popup-back {
+    display: none;
+    background: #16173ebe;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.popup {
+    text-align: center;
+    background-color: #769bf8;
+    padding: 30px;
+    width: 330px;
+    height: 200px;
+    border-radius: 30px;
+    margin-right: 0;
+    position: relative;
+    left: 50%;
+    margin-left: -190px;
+    top: 140px;
+}
+
+.close {
+    position: absolute;
+    top: 160px; left: 550px;
+    cursor: pointer;
+}
+
+.btn {
+    border: none;
+    width: 145px;
+    height: 45px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(0, 0, 65);
+    cursor: pointer;
+}
+
+.venceu{
+    color: white;
+}
+
+.gamersback {
+    display: block;
+    padding-left: 50%;
+    padding-bottom: 15px;
+}
+
+.gamers {
+    text-align: center;
+    background-color: rgb(0, 0, 65);
+    padding: 30px;
+    width: 330px;
+    height: 100px;
+    border-radius: 30px;
+    margin-right: 0;
+    left: 50%;
+    margin-left: -190px;
+    top: 90px;
+    padding-bottom: 50px;
+}
+
+.enviar {
+    border: none;
+    width: 85px;
+    height: 30px;
+    border-radius: 5px;
+    color: rgb(6, 0, 58);
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.jxtxt {
+    color: white;
+}
+
+.jx{
+    border: none;
+    border-radius: 5px;
+    height: 20px;
+}
+
+.jo{
+    border: none;
+    border-radius: 5px;
+    height: 20px;
+}
