@@ -1,3 +1,5 @@
+
+
 let board = ['','','','','','','','','']
 let playerTime = 0
 let symbols = ['um','dois']
@@ -44,6 +46,17 @@ function ganhador(){
             board[pos1] != '') {
                 return true
             }
+        
+        if (cont == 9 && board[pos1] != '' && board[pos2] != '' && board[pos3] != '' && gameover == false) {
+            title.innerHTML = ('Empate')
+            
+            popup.style.display = 'block'
+            close.addEventListener('click', () => {
+                popup.style.display = 'none'
+            })
+        } 
     }
     return false
 }
+
+

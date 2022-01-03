@@ -81,7 +81,7 @@ h1{text-align: center; color: #16173e;}
 
 .close {
     position: absolute;
-    top: 160px; left: 550px;
+    top: 160px; left: 930px;
     cursor: pointer;
 }
 
@@ -143,4 +143,8 @@ h1{text-align: center; color: #16173e;}
     border: none;
     border-radius: 5px;
     height: 20px;
+}
+
+.andr{
+    color: #16173e73;
 }
