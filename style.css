@@ -4,7 +4,7 @@ body{font-family:'montserrat';
 
 }
 
-h1{text-align: center; color: #16173e;}
+h1{text-align: center; color: #16173e; margin-bottom: 5px;}
 
 .tabuleiro{text-align: center;
     background-color: rgb(255, 255, 255);
@@ -14,7 +14,7 @@ h1{text-align: center; color: #16173e;}
     margin-right: 0;
     position: absolute;
     left: 50%;
-    margin-left: -190px;
+    margin-left: -195px;
     
 }
 
@@ -75,13 +75,14 @@ h1{text-align: center; color: #16173e;}
     margin-right: 0;
     position: relative;
     left: 50%;
-    margin-left: -190px;
-    top: 140px;
+    margin-left: -195px;
+    top: 50%;
+    margin-top: -195px;
 }
 
 .close {
     position: absolute;
-    top: 160px; left: 930px;
+    top: 190px; left: 930px;
     cursor: pointer;
 }
 
@@ -114,7 +115,7 @@ h1{text-align: center; color: #16173e;}
     border-radius: 30px;
     margin-right: 0;
     left: 50%;
-    margin-left: -190px;
+    margin-left: -195px;
     top: 90px;
     padding-bottom: 50px;
 }
@@ -146,5 +147,6 @@ h1{text-align: center; color: #16173e;}
 }
 
 .andr{
+    margin-top: 0px;
     color: #16173e73;
 }
